@@ -33,6 +33,13 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
+    var typed = new Typed(".type", {
+        strings: ["Hello", "Namaste", "Hola", "Bonjour", "Sawasdee"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["Web Developer", "Graphic Desginer", "Blogger", "Coder"],
